@@ -21,10 +21,10 @@ public class CollisionHandler : MonoBehaviour
 
     private void Update()
     {
-        RespondToDebugKeys();
+        //RespondToDebugKeys();
     }
 
-    void RespondToDebugKeys()
+    /*void RespondToDebugKeys()
     {
         if (Keyboard.current.lKey.wasPressedThisFrame)
         {
@@ -34,7 +34,7 @@ public class CollisionHandler : MonoBehaviour
         {
             isCollidable = !isCollidable;
         }
-    }
+    }*/
 
     private void OnCollisionEnter(Collision other) 
     {
