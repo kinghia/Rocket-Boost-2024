@@ -3,7 +3,12 @@ guid: 5235f3354d55b3047977c1ad1328751a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colour_Palette_Sci_Fi_Emission_Low
+    second: {fileID: 2100000, guid: c5956b54ac71bb943a122ca22af2a439, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
